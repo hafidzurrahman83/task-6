@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+header p {
+    margin: 10px 0 20px;
+    color: #666;
+}
+
+.search-container {
+    margin-bottom: 20px;
+}
+
+.search-container input {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+nav button {
+    padding: 10px 20px;
+    background-color: #eee;
+    border: none;
+    cursor: pointer;
+}
+
+nav button:hover {
+    background-color: #ddd;
+}
+
+main {
+    padding: 20px;
+}
+
+.posts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 10px;
+}
+
+.post {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.post img {
+    width: 100%;
+    height: auto;
+    border-radius: 7px 8px 0 0;
+}
+
+.post .category {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.post .author {
+    display: block;
+    margin-bottom: 10px;
+    color: #999;
+}
+
+.post h2 {
+    font-size: 18px;
+    color: #333;
+}
+
+.post p {
+    color: #666;
+}
+
+.post a {
+    display: block;
+    margin-top: 10px;
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+.post a:hover {
+    text-decoration: underline;
+}
+
+.load-more {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin: 20px 0;
+    background-color: #1e90ff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.load-more:hover {
+    background-color: #1c86ee;
+}
